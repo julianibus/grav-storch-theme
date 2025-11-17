@@ -1,0 +1,11 @@
+/* PC */
+#faq {
+  scroll-margin-top: 90px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #faq {
+    scroll-margin-top: 110px;
+  }
+}
