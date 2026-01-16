@@ -21,7 +21,7 @@
         <a class="button" href="#concert-popup-{{loop.index}}">
         <section class="concert-box">
             <div class="concert-box-month"><p> {{ concert.dateandtime|date("F") }} </p></div>
-            <div class="concert-box-location-short"> <p><b>{{ concert.locationshort|raw }}  {{ concert.dateandtime|date("H:i") }}</b></p></div>
+            <div class="concert-box-location-short"> <p><b>{{ concert.locationshort|raw }}, {{ concert.dateandtime|date("H:i") }} Uhr</b></p></div>
             <div class="concert-box-day"><p> {{ concert.dateandtime|date("j") }} </p></div>
             <div class="concert-box-heading"><p class="pheading"> {{ concert.heading|raw }} </p> <br>
                 <p class="pnote" style="visibility: {{ concert.note_visibility|raw }}"><span style="white-space: nowrap;"><svg height="15" width="15" class="blinking">
